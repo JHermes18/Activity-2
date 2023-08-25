@@ -1,0 +1,85 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Component */
+.button {
+  font-size: 16px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button.cancel {
+  background-color: #e74c3c;
+}
+
+.button.submit {
+  background-color: #3498db;
+}
+
+/* Text Field Component */
+.text-field {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-field.with-border {
+  border-bottom: 2px solid #ccc;
+}
+
+.text-field.green {
+  background-color: #c3e6cb;
+  border-radius: 10px;
+}
+
+/* Image Styling */
+.circular-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.square-rounded-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* H2 Component */
+.h2-component {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #333;
+}
